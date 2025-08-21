@@ -80,18 +80,19 @@ export default function HeroSection() {
           From concept to completion, we transform your vision into reality with precision, quality, and passion.
         </motion.p>
         
+        {/* REFINED BUTTON CONTAINER */}
         <motion.div 
-          className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto"
+          className="flex flex-col sm:flex-row gap-4 w-full max-w-sm sm:max-w-none mx-auto sm:w-auto"
           variants={itemVariants}
         >
-          <Link href="/contacts">
-            <button className="flex items-center justify-center gap-2 bg-emerald-500 text-white font-bold px-8 py-3.5 rounded-full shadow-lg transition-transform hover:bg-emerald-600 hover:scale-105 ease-in-out">
+          <Link href="/contacts" className="w-full sm:w-auto">
+            <button className="flex items-center justify-center gap-2 bg-emerald-500 text-white font-bold px-8 py-3.5 rounded-full shadow-lg transition-transform hover:bg-emerald-600 hover:scale-105 ease-in-out w-full">
               Contact Us
               <HiArrowRight className="w-5 h-5" />
             </button>
           </Link>
-          <Link href="/properties">
-            <button className="bg-white/10 border border-white/20 backdrop-blur-sm text-white font-semibold px-8 py-3.5 rounded-full shadow transition hover:bg-white/20">
+          <Link href="/properties" className="w-full sm:w-auto">
+            <button className="bg-white/10 border border-white/20 backdrop-blur-sm text-white font-semibold px-8 py-3.5 rounded-full shadow transition hover:bg-white/20 w-full">
               Our Projects
             </button>
           </Link>
