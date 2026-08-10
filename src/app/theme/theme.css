@@ -1,0 +1,45 @@
+:root {
+  --arv-yellow: #f4cf4f;
+  --arv-yellow-strong: #e2b52f;
+  --arv-yellow-soft: #fff3bf;
+  --arv-ink: #171918;
+  --arv-graphite: #343735;
+  --arv-steel: #707571;
+  --arv-concrete: #d9d9d2;
+  --arv-paper: #f5f3ed;
+  --arv-white: #ffffff;
+  --arv-line: rgba(23, 25, 24, 0.16);
+  --arv-line-dark: rgba(255, 255, 255, 0.16);
+
+  --font-display: "Barlow Condensed", "Arial Narrow", sans-serif;
+  --font-body: "IBM Plex Sans", Arial, sans-serif;
+
+  --container: min(92vw, 1440px);
+  --container-narrow: min(88vw, 1120px);
+  --space-1: 0.5rem;
+  --space-2: 0.75rem;
+  --space-3: 1rem;
+  --space-4: 1.5rem;
+  --space-5: 2rem;
+  --space-6: 3rem;
+  --space-7: 4.5rem;
+  --space-8: 6rem;
+  --space-9: 8rem;
+  --section-space: clamp(5rem, 9vw, 9rem);
+
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 1rem;
+
+  --display-hero: clamp(4.6rem, 11vw, 11.5rem);
+  --display-xl: clamp(3.6rem, 8vw, 8rem);
+  --display-lg: clamp(2.8rem, 6vw, 6rem);
+  --display-md: clamp(2.15rem, 4vw, 4.3rem);
+  --body-lg: clamp(1.05rem, 1.5vw, 1.25rem);
+  --body-md: 1rem;
+  --body-sm: 0.9rem;
+
+  --shadow-lift: 0 28px 70px rgba(23, 25, 24, 0.13);
+  --transition-fast: 180ms cubic-bezier(.2,.8,.2,1);
+  --transition-base: 360ms cubic-bezier(.2,.8,.2,1);
+}
