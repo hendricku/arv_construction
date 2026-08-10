@@ -69,7 +69,7 @@ export default async function ProjectDetailPage({ params }: ProjectDetailPagePro
         <section className="project-gallery">
           {project.images.map((image, index) => (
             <figure key={`${image}-${index}`}>
-              <Image src={image} alt={`${project.title}, image ${index + 1}`} fill sizes="(max-width: 820px) 92vw, 65vw" />
+              <Image src={image} alt={`${project.title}, image ${index + 1}`} fill sizes="(max-width: 840px) 92vw, 65vw" />
             </figure>
           ))}
         </section>
@@ -93,7 +93,7 @@ export default async function ProjectDetailPage({ params }: ProjectDetailPagePro
           <Link href={`/projects/${next.slug}`} className="site-shell">
             <span className="micro-label">Next project</span>
             <h2>{next.title}</h2>
-            <span>↗</span>
+            <span>â†—</span>
           </Link>
         </section>
 

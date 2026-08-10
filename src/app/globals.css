@@ -286,7 +286,7 @@ img { display: block; }
 .not-found h1 { margin: 0; font-family: var(--font-display); font-size: clamp(7rem, 22vw, 20rem); line-height: .7; }
 .not-found p { max-width: 30rem; font-size: var(--body-lg); }
 
-@media (max-width: 1100px) {
+@media (max-width: 1180px) {
   .desktop-nav, .header-quote { display: none; }
   .header-inner { grid-template-columns: 1fr auto; }
   .menu-trigger { display: flex; }
@@ -305,7 +305,7 @@ img { display: block; }
   .about-image { grid-column: 2; }
 }
 
-@media (max-width: 820px) {
+@media (max-width: 840px) {
   :root { --container: min(92vw, 100%); --container-narrow: min(92vw, 100%); }
   .header-inner { min-height: 4.8rem; }
   .brand-copy small { display: none; }
@@ -357,7 +357,7 @@ img { display: block; }
   .footer-links > div:last-child { grid-column: 1 / -1; }
 }
 
-@media (max-width: 520px) {
+@media (max-width: 600px) {
   .brand-copy strong { font-size: .95rem; }
   .hero-kicker { display: block; }
   .hero-kicker span:last-child { display: none; }
@@ -449,7 +449,7 @@ img { display: block; }
 .contact-hero-direct a { overflow-wrap: anywhere; font-size: .84rem; font-weight: 500; }
 .contact-hero-direct p { margin: 1.4rem 0 0; max-width: 28rem; color: var(--arv-steel); font-size: .78rem; }
 
-@media (max-width: 1100px) {
+@media (max-width: 1180px) {
   .project-story { grid-template-columns: minmax(0, 1.05fr) minmax(17rem, .75fr); }
   .project-story-reverse { grid-template-columns: minmax(17rem, .75fr) minmax(0, 1.05fr); }
   .services-matrix-row { grid-template-columns: 3rem minmax(0, 1.2fr) minmax(15rem, .8fr); }
@@ -458,7 +458,7 @@ img { display: block; }
   .contact-hero-grid { grid-template-columns: 1fr .7fr; }
 }
 
-@media (max-width: 820px) {
+@media (max-width: 840px) {
   .project-story-list { gap: 4.5rem; }
   .project-story, .project-story-reverse { display: flex; flex-direction: column; gap: 1.5rem; }
   .project-story-reverse .project-story-image-link, .project-story-reverse .project-story-copy { order: initial; }
@@ -491,7 +491,7 @@ img { display: block; }
   .contact-hero-direct { max-width: none; }
 }
 
-@media (max-width: 520px) {
+@media (max-width: 600px) {
   .project-story-eyebrow { display: grid; gap: .35rem; }
   .project-story-description { line-height: 1.5; }
   .services-matrix-row { grid-template-columns: 2rem minmax(0, 1fr); }
@@ -508,11 +508,11 @@ img { max-width: 100%; }
 .form-status.is-error { color: var(--arv-ink); font-weight: 600; }
 .form-submit .button:disabled { cursor: wait; opacity: .66; transform: none; }
 .form-honeypot { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
-@media (max-width: 820px) { .hero-copy h1 { max-width: 10.5ch; font-size: clamp(3.1rem, 17vw, 7rem); } }
-@media (max-width: 520px) { .header-inner { gap: .75rem; } .hero-copy { padding-top: 7rem; padding-bottom: 2rem; } .hero-copy h1, .page-intro h1, .project-detail-hero-copy h1, .about-hero-copy h1, .contact-hero-copy h1 { overflow-wrap: anywhere; } .page-intro { padding-top: 7rem; } .project-detail-hero-copy { padding-top: 7rem; } }
+@media (max-width: 840px) { .hero-copy h1 { max-width: 10.5ch; font-size: clamp(3.1rem, 17vw, 7rem); } }
+@media (max-width: 600px) { .header-inner { gap: .75rem; } .hero-copy { padding-top: 7rem; padding-bottom: 2rem; } .hero-copy h1, .page-intro h1, .project-detail-hero-copy h1, .about-hero-copy h1, .contact-hero-copy h1 { overflow-wrap: anywhere; } .page-intro { padding-top: 7rem; } .project-detail-hero-copy { padding-top: 7rem; } }
 
 /* Preserve whole words in the large mobile statements. */
-@media (max-width: 820px) {
+@media (max-width: 840px) {
   .hero-copy h1 {
     width: 100%;
     max-width: none;
@@ -523,7 +523,7 @@ img { max-width: 100%; }
   }
 }
 
-@media (max-width: 520px) {
+@media (max-width: 600px) {
   .hero-copy h1,
   .footer-statement p {
     max-width: none;
@@ -545,13 +545,13 @@ img { max-width: 100%; }
   outline-offset: var(--space-1);
 }
 
-@media (max-width: 820px) {
+@media (max-width: 840px) {
   .menu-panel {
     width: 100%;
   }
 }
 
-@media (max-width: 520px) {
+@media (max-width: 600px) {
   .menu-panel {
     padding: var(--menu-panel-padding);
   }

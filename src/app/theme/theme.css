@@ -14,6 +14,7 @@
   --font-display: "Barlow Condensed", "Arial Narrow", sans-serif;
   --font-body: "IBM Plex Sans", Arial, sans-serif;
 
+  /* Responsive system: xs 0, sm 600px, md 840px, lg 1180px, xl 1440px. */
   --container: min(92vw, 1440px);
   --container-narrow: min(88vw, 1120px);
   --layer-header: 80;

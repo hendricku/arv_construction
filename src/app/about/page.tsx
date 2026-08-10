@@ -25,11 +25,11 @@ export default function AboutPage() {
             <span className="micro-label">Company profile</span>
             <div className="about-story-copy">
               <h2>Designed with<br />the build in mind.</h2>
-              <p>ARV presents itself as a Design and Build construction company with the line “Transforming blueprints into reality.” Its current service material covers architectural and structural consultation, design and rendering, building plans, bills of materials, as-built plans, repair and renovation, and permit or occupancy assistance.</p>
+              <p>ARV presents itself as a Design and Build construction company with the line â€œTransforming blueprints into reality.â€ Its current service material covers architectural and structural consultation, design and rendering, building plans, bills of materials, as-built plans, repair and renovation, and permit or occupancy assistance.</p>
               <p>The same business also promotes signage fabrication and truck rental, giving ARV a broader practical service range around construction and local project needs.</p>
             </div>
             <div className="about-image">
-              <Image src="/arvcover.jpg" alt="ARV architectural and construction presentation" fill sizes="(max-width: 820px) 92vw, 30vw" />
+              <Image src="/arvcover.jpg" alt="ARV architectural and construction presentation" fill sizes="(max-width: 840px) 92vw, 30vw" />
             </div>
           </div>
         </section>

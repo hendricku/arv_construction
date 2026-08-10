@@ -31,7 +31,7 @@ export default function ProjectsPage() {
           <span>Renovation</span>
           <span>Community</span>
           <span>Academic</span>
-          <Link href="/projects/design-concepts" className="text-link">Design archive ↗</Link>
+          <Link href="/projects/design-concepts" className="text-link">Design archive â†—</Link>
         </div>
 
         <div className="projects-list">
@@ -39,8 +39,8 @@ export default function ProjectsPage() {
             <article key={project.slug}>
               <Link href={`/projects/${project.slug}`} className="projects-list-link" aria-label={`View ${project.title}`}>
                 <div className="projects-list-image">
-                  <Image src={project.img} alt={project.title} fill sizes="(max-width: 820px) 92vw, 50vw" />
-                  <span className="projects-list-view-on-image">View project ↗</span>
+                  <Image src={project.img} alt={project.title} fill sizes="(max-width: 840px) 92vw, 50vw" />
+                  <span className="projects-list-view-on-image">View project â†—</span>
                 </div>
                 <div className="projects-list-copy">
                   <span className="projects-list-index">0{index + 1}</span>
@@ -49,7 +49,7 @@ export default function ProjectsPage() {
                     <h2>{project.title}</h2>
                     <p className="projects-list-address">{project.address}</p>
                     <p className="projects-list-description">{project.desc}</p>
-                    <span className="projects-list-view">View project ↗</span>
+                    <span className="projects-list-view">View project â†—</span>
                   </div>
                 </div>
               </Link>

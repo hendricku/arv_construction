@@ -38,7 +38,7 @@ export default async function ServiceDetailPage({ params }: ServiceDetailPagePro
             <p>{service.summary}</p>
           </div>
           <div className="service-detail-media">
-            <Image src={service.image} alt={service.title} fill priority sizes="(max-width: 820px) 100vw, 55vw" />
+            <Image src={service.image} alt={service.title} fill priority sizes="(max-width: 840px) 100vw, 55vw" />
             <span className="service-detail-word">{service.themeWord}</span>
           </div>
         </section>
@@ -64,7 +64,7 @@ export default async function ServiceDetailPage({ params }: ServiceDetailPagePro
             <div className="service-gallery">
               {service.gallery.map((image, index) => (
                 <figure key={index}>
-                  <Image src={image} alt={`${service.title} example ${index + 1}`} fill sizes="(max-width: 820px) 92vw, 60vw" />
+                  <Image src={image} alt={`${service.title} example ${index + 1}`} fill sizes="(max-width: 840px) 92vw, 60vw" />
                 </figure>
               ))}
             </div>

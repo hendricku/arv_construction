@@ -19,7 +19,7 @@ export default function AboutHero({ imageSrc = "/NewRegional3.jpg" }: AboutHeroP
         </div>
 
         <div className="about-hero-media">
-          <Image src={imageSrc} alt="ARV construction project" fill priority sizes="(max-width: 820px) 100vw, 48vw" />
+          <Image src={imageSrc} alt="ARV construction project" fill priority sizes="(max-width: 840px) 100vw, 48vw" />
           <span className="about-hero-marker">ARV / BUILT WORK</span>
         </div>
       </div>
