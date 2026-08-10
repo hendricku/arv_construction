@@ -18,7 +18,7 @@ export default function ServiceIndex({ condensed = false }: ServiceIndexProps) {
       <div className="site-shell">
         <div className="section-heading split-heading">
           <div><span className="micro-label">02 / Capabilities</span><h2>One team.<br />Multiple ways<br />to get it built.</h2></div>
-          <p>ARVâ€™s core work is design and build, supported by planning, renovation, signage fabrication, and practical hauling services.</p>
+          <p>ARV&apos;s core work is design and build, supported by planning, renovation, signage fabrication, and practical hauling services.</p>
         </div>
 
         <div className="service-index-grid">
@@ -33,10 +33,10 @@ export default function ServiceIndex({ condensed = false }: ServiceIndexProps) {
               >
                 <span className="service-number">{service.number}</span>
                 <span className="service-name">{service.shortTitle}</span>
-                <span className="service-arrow">â†—</span>
+                <span className="service-arrow" aria-hidden="true">{"\u2197"}</span>
               </Link>
             ))}
-            {!condensed && <Link className="service-all-link" href="/services">Explore all services â†’</Link>}
+            {!condensed && <Link className="service-all-link" href="/services">Explore all services <span aria-hidden="true">{"\u2192"}</span></Link>}
           </div>
           <div className="service-preview">
             <AnimatePresence mode="wait">

@@ -93,7 +93,7 @@ export default async function ProjectDetailPage({ params }: ProjectDetailPagePro
           <Link href={`/projects/${next.slug}`} className="site-shell">
             <span className="micro-label">Next project</span>
             <h2>{next.title}</h2>
-            <span>â†—</span>
+            <span aria-hidden="true">{"\u2197"}</span>
           </Link>
         </section>
 

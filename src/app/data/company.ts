@@ -2,6 +2,7 @@ export const company = {
   name: "ARV Construction & Supplies",
   shortName: "ARV Construction",
   descriptor: "Design and Build",
+  owner: "Adrian Viray",
   tagline: "Transforming blueprints into reality.",
   phoneDisplay: "0927 044 2529",
   phoneHref: "+639270442529",

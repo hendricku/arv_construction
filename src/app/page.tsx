@@ -23,7 +23,7 @@ export default function HomePage() {
               <h2>Design it.<br />Plan it.<br />Build it.</h2>
               <p>ARV Construction & Supplies is a San Fernando City, La Union based design-and-build company working across architectural planning, construction, repair, fabrication, and transport support.</p>
               <p>The website now puts the work first: real project imagery, clear service scopes, and direct ways to start an inquiry.</p>
-              <Link href="/about" className="text-link">About ARV â†—</Link>
+              <Link href="/about" className="text-link">About ARV <span aria-hidden="true">{"\u2197"}</span></Link>
             </div>
             <div className="about-image"><Image src="/arvcover.jpg" alt="ARV design and construction visual" fill sizes="(max-width: 840px) 92vw, 30vw" /></div>
           </div>

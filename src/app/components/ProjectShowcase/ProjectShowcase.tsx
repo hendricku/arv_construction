@@ -16,7 +16,7 @@ export default function ProjectShowcase({ limit = 4 }: ProjectShowcaseProps) {
         <div className="section-heading project-heading">
           <span className="micro-label">03 / Selected work</span>
           <h2>Built work,<br /><em>not placeholders.</em></h2>
-          <Link href="/projects" className="text-link">View all projects â†—</Link>
+          <Link href="/projects" className="text-link">View all projects <span aria-hidden="true">{"\u2197"}</span></Link>
         </div>
 
         <div className="project-story-list">
@@ -33,7 +33,7 @@ export default function ProjectShowcase({ limit = 4 }: ProjectShowcaseProps) {
                 <div className="project-story-image">
                   <Image src={project.img} alt={project.title} fill sizes="(max-width: 840px) 92vw, 58vw" />
                 </div>
-                <span className="project-open">View project â†—</span>
+                <span className="project-open">View project <span aria-hidden="true">{"\u2197"}</span></span>
               </Link>
 
               <div className="project-story-copy">
@@ -44,7 +44,7 @@ export default function ProjectShowcase({ limit = 4 }: ProjectShowcaseProps) {
                 <h3>{project.title}</h3>
                 <p className="project-story-location">{project.address}</p>
                 <p className="project-story-description">{project.desc}</p>
-                <Link href={`/projects/${project.slug}`} className="project-view-link">View project â†—</Link>
+                <Link href={`/projects/${project.slug}`} className="project-view-link">View project <span aria-hidden="true">{"\u2197"}</span></Link>
               </div>
             </motion.article>
           ))}

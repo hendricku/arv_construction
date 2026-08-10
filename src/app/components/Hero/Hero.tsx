@@ -15,7 +15,6 @@ export default function Hero({ image = "/arvcovertwo.png" }: HeroProps) {
         <motion.div className="hero-image-mask" initial={reduceMotion ? false : { clipPath: "inset(0 0 0 100%)" }} animate={{ clipPath: "inset(0 0 0 0%)" }} transition={{ duration: 1.1, ease: [0.22, 1, 0.36, 1] }}>
           <Image src={image} alt="ARV architectural and construction work" fill priority sizes="(max-width: 840px) 100vw, 62vw" className="hero-image" />
         </motion.div>
-        <div className="hero-image-index">ARV / 2026</div>
       </div>
 
       <div className="hero-copy site-shell">
@@ -26,8 +25,8 @@ export default function Hero({ image = "/arvcovertwo.png" }: HeroProps) {
           Transforming<br /><span>blueprints</span><br />into reality.
         </motion.h1>
         <motion.div className="hero-actions" initial={reduceMotion ? false : { opacity: 0, y: 20 }} animate={enter} transition={{ duration: 0.7, delay: 0.55 }}>
-          <Link href="/projects" className="button button-primary">View projects <span>â†—</span></Link>
-          <Link href="/request-quote" className="button button-ghost">Start a project <span>â†’</span></Link>
+          <Link href="/projects" className="button button-primary">View projects <span aria-hidden="true">{"\u2197"}</span></Link>
+          <Link href="/request-quote" className="button button-ghost">Start a project <span aria-hidden="true">{"\u2192"}</span></Link>
         </motion.div>
       </div>
       <div className="hero-yellow-rail" aria-hidden="true"><span>DESIGN</span><span>BUILD</span><span>FABRICATE</span><span>MOVE</span></div>
