@@ -16,6 +16,16 @@
 
   --container: min(92vw, 1440px);
   --container-narrow: min(88vw, 1120px);
+  --layer-header: 80;
+  --layer-menu: 1000;
+  --header-height: 5.6rem;
+  --menu-panel-width: min(100%, 40rem);
+  --menu-panel-padding: clamp(1.25rem, 4vw, 3rem);
+  --menu-link-size: clamp(2.2rem, 5vw, 4.25rem);
+  --menu-link-size-mobile: clamp(2rem, 11vw, 3.25rem);
+  --menu-link-min-height: 3.25rem;
+  --menu-link-min-height-mobile: 2.75rem;
+  --focus-ring-width: 2px;
   --space-1: 0.5rem;
   --space-2: 0.75rem;
   --space-3: 1rem;
