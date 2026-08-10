@@ -510,3 +510,29 @@ img { max-width: 100%; }
 .form-honeypot { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
 @media (max-width: 820px) { .hero-copy h1 { max-width: 10.5ch; font-size: clamp(3.1rem, 17vw, 7rem); } }
 @media (max-width: 520px) { .header-inner { gap: .75rem; } .hero-copy { padding-top: 7rem; padding-bottom: 2rem; } .hero-copy h1, .page-intro h1, .project-detail-hero-copy h1, .about-hero-copy h1, .contact-hero-copy h1 { overflow-wrap: anywhere; } .page-intro { padding-top: 7rem; } .project-detail-hero-copy { padding-top: 7rem; } }
+
+/* Preserve whole words in the large mobile statements. */
+@media (max-width: 820px) {
+  .hero-copy h1 {
+    width: 100%;
+    max-width: none;
+    font-size: clamp(2.8rem, 14vw, 5.5rem);
+    line-height: 0.78;
+    overflow-wrap: normal;
+    word-break: normal;
+  }
+}
+
+@media (max-width: 520px) {
+  .hero-copy h1,
+  .footer-statement p {
+    max-width: none;
+    overflow-wrap: normal;
+    word-break: normal;
+  }
+
+  .footer-statement p {
+    font-size: clamp(2.8rem, 14vw, 4.8rem);
+    line-height: 0.8;
+  }
+}
